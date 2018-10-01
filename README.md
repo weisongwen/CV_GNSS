@@ -1,6 +1,4 @@
-# software for autonomous vehicle
-
-Software CV aided GNSS
+# Software for CV aided GNSS
 
 ## Spec Recommendation
 
