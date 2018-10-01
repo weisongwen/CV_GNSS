@@ -1,4 +1,4 @@
-# Autoware for autonomous vehicle
+# software for autonomous vehicle
 
 Software CV aided GNSS
 
