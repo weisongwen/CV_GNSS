@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<launch>
+    <node name="ivactuator" pkg="ivactuator" type="ivactuator" output="screen"/>
+</launch>
