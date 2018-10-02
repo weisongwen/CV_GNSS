@@ -1,4 +1,11 @@
 <?xml version="1.0" ?>
 <launch>
-    <node name="ivactuator" pkg="ivactuator" type="ivactuator" output="screen"/>
+	<arg name="node_name" default="ublox_gps" />
+    <arg name="param_file_name" doc="c94_m8t_rover" />
+    <arg name="output" default="screen" />
+    <arg name="respawn" default="true" />
+    <arg name="respawn_delay" default="30" />
+    <arg name="clear_params" default="true" />
+	<node pkg="ivactuator" type="ivactuator" name="skyview" output="screen">
+  </node>
 </launch>
