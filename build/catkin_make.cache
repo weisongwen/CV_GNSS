@@ -1,2 +1,0 @@
-ivactuator
--DCATKIN_DEVEL_PREFIX=/home/wenws/CV_GNSS/devel -DCMAKE_INSTALL_PREFIX=/home/wenws/CV_GNSS/install -G Unix Makefiles

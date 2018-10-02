@@ -16,7 +16,7 @@
 - Armadillo (Optional)
 
 
-## How to Build and Start
+## How to Build and Start (please do not forget to open your bag file)
 
 ```
 $ cd $HOME
