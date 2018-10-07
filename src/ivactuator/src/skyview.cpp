@@ -24,9 +24,12 @@ public:
     float y;
     float azimuth;
     float maskElevation;
-  }floatPoint;
+  }floatPoint; // pixel point in image 
 
   vector<floatPoint> GlobalboundaryPointlist;
+
+public: 
+  float cameraFocalLengthinPixel = 20; // camera focal length in pixel
 
 public:
   ImageConverter()
@@ -257,6 +260,31 @@ public:
         std::cout<<".......1 s"<<std::endl;
       }
     }
+  }
+
+  /**
+   * @brief transform satellite into image
+   * @param cv::Mat inputImage, satellite azimuth, satellite elevation, vehicle heading relative to north of earth, focal length of camera
+   * @return satellite position in image
+   @ Paul's paper: Tightly-Coupled GNSS/Vision Using a Sky-Pointing Camera for Vehicle Navigation in Urban Areas
+   */
+  floatPoint transformSatellite2Image(cv::Mat inputImage, float satelliteAziInDegree, float satelliteEleInDegree, 
+    float vehilceHeadingInDegree, float cameraFocalLengthinPixel_)
+  {
+    floatPoint satellitePositionInImage; // transformed satellite position in image
+    float fyAngleinDegree = M_PI /2.0 - satelliteEleInDegree; // refers to equation (9) in Paul's paper
+    float disPix = cameraFocalLengthinPixel_ * tan(M_PI /2.0 - satelliteEleInDegree * M_PI/ 180.0); // refers to equation (10) in Paul's paper
+    float Xc = inputImage.rows / 2.0; // center of image in x axis
+    float Yc = inputImage.cols / 2.0; // center of image in y axis 
+
+    satellitePositionInImage.x = Xc + disPix * 
+    cos(satelliteAziInDegree * M_PI/ 180.0 + vehilceHeadingInDegree* M_PI/ 180.0);// refers to equation (11a) in Paul's paper
+
+    satellitePositionInImage.y = Yc - disPix * 
+    sin(satelliteAziInDegree * M_PI/ 180.0 + vehilceHeadingInDegree* M_PI/ 180.0);// refers to equation (11b) in Paul's paper
+
+    return satellitePositionInImage;
+
   }
 
 };

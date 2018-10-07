@@ -1,0 +1,324 @@
+xiwei, please try to transform the satellite into the image based on the following satellite information. 
+Assuming that the heading angle for vehicle  is 90 degree.
+
+in the following:
+
+svId is ID of satellite
+elev is satellite elevation 
+azim is satellite azimuth
+
+iTOW: 13547000
+version: 1
+numSvs: 17
+reserved0: [0, 0]
+sv: 
+  - 
+    gnssId: 0
+    svId: 1
+    cno: 0
+    elev: 1
+    azim: 197
+    prRes: 0
+    flags: 4624
+  - 
+    gnssId: 0
+    svId: 3
+    cno: 46
+    elev: 62
+    azim: 180
+    prRes: -4
+    flags: 2335
+  - 
+    gnssId: 0
+    svId: 7
+    cno: 26
+    elev: 25
+    azim: 241
+    prRes: -26
+    flags: 2332
+  - 
+    gnssId: 0
+    svId: 9
+    cno: 32
+    elev: 45
+    azim: 308
+    prRes: 124
+    flags: 6431
+  - 
+    gnssId: 0
+    svId: 16
+    cno: 46
+    elev: 48
+    azim: 96
+    prRes: -4
+    flags: 6431
+  - 
+    gnssId: 0
+    svId: 22
+    cno: 47
+    elev: 41
+    azim: 167
+    prRes: -10
+    flags: 6431
+  - 
+    gnssId: 0
+    svId: 23
+    cno: 33
+    elev: 68
+    azim: 340
+    prRes: 90
+    flags: 6431
+  - 
+    gnssId: 0
+    svId: 26
+    cno: 37
+    elev: 35
+    azim: 59
+    prRes: 10
+    flags: 2335
+  - 
+    gnssId: 0
+    svId: 31
+    cno: 0
+    elev: 4
+    azim: 53
+    prRes: 0
+    flags: 6417
+  - 
+    gnssId: 6
+    svId: 1
+    cno: 39
+    elev: 23
+    azim: 129
+    prRes: 8
+    flags: 6431
+  - 
+    gnssId: 6
+    svId: 2
+    cno: 36
+    elev: 76
+    azim: 58
+    prRes: 17
+    flags: 6431
+  - 
+    gnssId: 6
+    svId: 3
+    cno: 35
+    elev: 35
+    azim: 327
+    prRes: -75
+    flags: 6431
+  - 
+    gnssId: 6
+    svId: 11
+    cno: 23
+    elev: 19
+    azim: 33
+    prRes: -474
+    flags: 6420
+  - 
+    gnssId: 6
+    svId: 12
+    cno: 33
+    elev: 65
+    azim: 32
+    prRes: 146
+    flags: 6431
+  - 
+    gnssId: 6
+    svId: 13
+    cno: 35
+    elev: 48
+    azim: 214
+    prRes: 50
+    flags: 6431
+  - 
+    gnssId: 6
+    svId: 14
+    cno: 0
+    elev: 0
+    azim: 213
+    prRes: 0
+    flags: 4625
+  - 
+    gnssId: 6
+    svId: 19
+    cno: 0
+    elev: 2
+    azim: 322
+    prRes: 0
+    flags: 4625
+---
+iTOW: 13567000
+version: 1
+numSvs: 21
+reserved0: [0, 0]
+sv: 
+  - 
+    gnssId: 0
+    svId: 1
+    cno: 13
+    elev: 1
+    azim: 197
+    prRes: 0
+    flags: 4627
+  - 
+    gnssId: 0
+    svId: 2
+    cno: 0
+    elev: -2
+    azim: 333
+    prRes: 0
+    flags: 4625
+  - 
+    gnssId: 0
+    svId: 3
+    cno: 47
+    elev: 62
+    azim: 180
+    prRes: -9
+    flags: 2335
+  - 
+    gnssId: 0
+    svId: 6
+    cno: 21
+    elev: -91
+    azim: 0
+    prRes: 0
+    flags: 19
+  - 
+    gnssId: 0
+    svId: 7
+    cno: 28
+    elev: 25
+    azim: 241
+    prRes: -82
+    flags: 2335
+  - 
+    gnssId: 0
+    svId: 9
+    cno: 35
+    elev: 45
+    azim: 308
+    prRes: 68
+    flags: 6431
+  - 
+    gnssId: 0
+    svId: 16
+    cno: 45
+    elev: 48
+    azim: 96
+    prRes: 8
+    flags: 6431
+  - 
+    gnssId: 0
+    svId: 22
+    cno: 48
+    elev: 41
+    azim: 167
+    prRes: -25
+    flags: 6431
+  - 
+    gnssId: 0
+    svId: 23
+    cno: 34
+    elev: 68
+    azim: 340
+    prRes: 52
+    flags: 6431
+  - 
+    gnssId: 0
+    svId: 26
+    cno: 38
+    elev: 35
+    azim: 59
+    prRes: -11
+    flags: 2335
+  - 
+    gnssId: 0
+    svId: 27
+    cno: 0
+    elev: -91
+    azim: 0
+    prRes: 0
+    flags: 17
+  - 
+    gnssId: 0
+    svId: 28
+    cno: 0
+    elev: -91
+    azim: 0
+    prRes: 0
+    flags: 17
+  - 
+    gnssId: 0
+    svId: 31
+    cno: 0
+    elev: 4
+    azim: 53
+    prRes: 0
+    flags: 6416
+  - 
+    gnssId: 6
+    svId: 1
+    cno: 39
+    elev: 22
+    azim: 130
+    prRes: 32
+    flags: 6431
+  - 
+    gnssId: 6
+    svId: 2
+    cno: 36
+    elev: 76
+    azim: 61
+    prRes: 14
+    flags: 6431
+  - 
+    gnssId: 6
+    svId: 3
+    cno: 36
+    elev: 35
+    azim: 327
+    prRes: -76
+    flags: 6431
+  - 
+    gnssId: 6
+    svId: 11
+    cno: 24
+    elev: 18
+    azim: 33
+    prRes: -31
+    flags: 6428
+  - 
+    gnssId: 6
+    svId: 12
+    cno: 35
+    elev: 65
+    azim: 32
+    prRes: 50
+    flags: 6431
+  - 
+    gnssId: 6
+    svId: 13
+    cno: 34
+    elev: 48
+    azim: 214
+    prRes: 29
+    flags: 6431
+  - 
+    gnssId: 6
+    svId: 14
+    cno: 0
+    elev: 0
+    azim: 213
+    prRes: 0
+    flags: 4625
+  - 
+    gnssId: 6
+    svId: 19
+    cno: 0
+    elev: 2
+    azim: 322
+    prRes: 0
+    flags: 4625
